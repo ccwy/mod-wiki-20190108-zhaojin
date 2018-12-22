@@ -17,14 +17,14 @@
 
 ## 搭建网站
 
-本文使用 LNMP 1.5 测试版来安装 Nginx 和 SSL 证书
+本文使用 LNMP 1.5 来安装 Nginx 和 SSL 证书
 
 1. 安装 Nginx，安装前建议使用 screen，执行：
 
    ```
    apt update && apt install screen wget curl -y
    screen -S lnmp
-   wget -c http://soft.vpser.net/lnmp/lnmp1.5beta.tar.gz && tar zxf lnmp1.5beta.tar.gz && cd lnmp1.5 && ./install.sh nginx
+   wget -c http://soft.vpser.net/lnmp/lnmp1.5.tar.gz && tar zxf lnmp1.5.tar.gz && cd lnmp1.5 && ./install.sh nginx
    ```
 
 
